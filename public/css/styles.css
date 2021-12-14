@@ -1,25 +1,25 @@
 @font-face {
     font-family: "Univers";
-    src: url("/public/UniversLTStd/UniversLTStd.otf");
+    src: url("../UniversLTStd/UniversLTStd.otf");
 
     font-weight: 550;
 }
 
 @font-face {
     font-family: "Univers";
-    src: url("/public/UniversLTStd/UniversLTStd-BlackEx.otf");
+    src: url("../UniversLTStd/UniversLTStd-BlackEx.otf");
     font-weight: 730;
 }
 
 @font-face {
     font-family: "Univers";
-    src: url("/public/UniversLTStd/UniversLTStd-Ex.otf");
+    src: url("../UniversLTStd/UniversLTStd-Ex.otf");
     font-weight: 530;
 }
 
 @font-face {
     font-family: "Univers";
-    src: url("/public/UniversLTStd/UniversLTStd-BoldCn.otf");
+    src: url("../UniversLTStd/UniversLTStd-BoldCn.otf");
     font-weight: 670;
 }
 
