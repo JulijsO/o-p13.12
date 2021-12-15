@@ -144,6 +144,10 @@ body{
     flex-grow: 1;
 }
 
+.projekt-m {
+    display:none;
+}
+
 
 /* Projectübersicht_____________________ */
 
@@ -595,4 +599,103 @@ img{
 }
 .padding-child {
     height: 12px;
+}
+
+
+
+
+
+/* ___________________SMALL DEVICES_____________________________ */
+
+@media screen and (max-width: 640px) {
+
+    .header-child{
+        display: unset;
+        height: 96px;
+    }
+
+    .logo-title{
+        flex-basis: unset;
+        flex-grow: unset;
+        width: 100vw;
+
+        font-size: 16px;
+        border-bottom: solid 1px;
+    }
+
+    .logo-title-add {
+        font-size: 10px;
+    }
+
+    .header-links {
+        display:block;
+        padding-left: 0px;
+        padding-top:12px;
+
+  
+    }
+
+    .projekt {
+        display: none;
+    }
+    
+    .projekt-m, .büro, .kontakt {
+        display:block;
+        text-align: left;
+        font-weight: 670;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+
+        padding-bottom:4px;
+    }
+
+
+    /* Projektliste */
+
+    .projectlist-child{
+        margin-bottom:0;
+    }
+
+    .projectlist-child-on{
+        padding-top:0;
+    }
+
+    .list-container-on{
+        display:unset;
+        overflow-y: scroll;
+        
+    }
+
+    .list-column-on, .list-column-on-2 {
+        display:block;
+        width:unset;
+        padding-left:0;
+    }
+
+    /* __________img-section________________ */
+
+    .content-wrapper{
+        flex-grow:1;
+        /* overflow-x: scroll; */
+    }
+
+    .content-child{
+        flex-direction: column;
+        flex-wrap: unset;
+    }
+
+    .img-section{
+        height:300px;
+        margin-bottom:20px;
+    }
+
+    .img-container{
+
+    }
+
+    .info-section{
+        padding:unset;
+        padding-top: 10px;
+    }
+
 }
